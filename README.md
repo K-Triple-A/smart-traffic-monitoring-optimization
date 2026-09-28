@@ -7,7 +7,7 @@
 Adaptive Traffic Signal Control Using Multi-Agent Reinforcement Learning. Developed an intelligent traffic signal control system using Multi-Agent Reinforcement Learning (MARL) with Centralized Training and Decentralized Execution (CTDE). Designed and simulated urban traffic networks in SUMO to evaluate adaptive signal control under different traffic scenarios. Integrated a Computer Vision pipeline using YOLO for real-time vehicle detection and multi-object tracking, combined with Bird's-Eye View (BEV) transformation to estimate inter-vehicle distances. Compared multiple traffic control strategies using performance metrics including average waiting time, queue length, throughput, and travel time. Combined Reinforcement Learning and Computer Vision to improve traffic efficiency through perception-driven adaptive signal control.
 
 #### architecture diagram 
-    ![Smart Traffic Architecture](images/project architecture.png)
+![Smart Traffic Architecture](images/project architecture.png)
 
 **Smart Traffic: Monitoring and Optimizing Traffic Using Artificial Intelligence and Machine Learning**
 
@@ -66,9 +66,9 @@ We implemented and compared three strategies, each in single-agent and multi-age
 ### Simulation Networks
 
 - **Synthetic Two-Junction Corridor:** a symmetric two-intersection corridor built entirely in SUMO, used to observe multi-agent coordination without real-world irregularities.
-                ![Two-Junction corridor in sumo](images/Two-Junction Corridor sumo.png)
+![Two-Junction corridor in sumo](images/Two-Junction Corridor sumo.png)
 - **25 January Corridor (Assiut, Egypt):** a digital twin of a real arterial corridor with asymmetric geometry and realistic turning movements, used to test controller robustness.
-                ![25 January Corridor in (Assiut, Egypt) and sumo ](images/25 January Corridor.png)
+![25 January Corridor in (Assiut, Egypt) and sumo ](images/25 January Corridor.png)
                 
 ### Demand Scenarios 
 - **Low Demand view:** 
@@ -96,11 +96,11 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
 - **RL_Control.mp4**
 
-    ![DQN control for Delay reward on 25 January Corridor](Videos/DQN control for Delay reward.mp4)
+![DQN control for Delay reward on 25 January Corridor](Videos/DQN control for Delay reward.mp4)
 
 - **Baseline_fixed_time control.mp4**
 
-    ![Baseline_fixed_time control for Delay reward on 25 January Corridor](Videos/Baseline_fixed_time control.mp4) 
+![Baseline_fixed_time control for Delay reward on 25 January Corridor](Videos/Baseline_fixed_time control.mp4) 
 
 ### Safety: Time-To-Collision (TTC)
 
@@ -122,9 +122,9 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
     The system was designed, implemented, trained, and evaluated using realistic traffic simulations to improve traffic efficiency under varying traffic conditions.
 
-   ![Publication Banner](images/publication panner.png) 
+![Publication Banner](images/publication panner.png) 
 
-   ![Publication Certificate](images/publication Certificate.png) 
+![Publication Certificate](images/publication Certificate.png) 
 
 ### Computer Vision Pipeline
 
@@ -145,13 +145,13 @@ The vision side of the project turns roadside video into the data the controller
 
 - Custom YOLO model trained on 260 annotated frames (single "vehicle" class, 70/20/10 train/validation/test split, augmentation to avoid overfitting), trained on Google Colab GPUs via Roboflow.
 
-    ![Annoyated Frame Example](images/annotated Frame.png)
+![Annoyated Frame Example](images/annotated Frame.png)
 
 - Works on low-resolution 480p footage, which supports deployment on standard CCTV cameras.
 - ByteTrack assigns persistent IDs across frames and handles occlusion in dense traffic, with a live HUD showing vehicle counts and elapsed time.
 
 **Tracking.mp4**
-    ![Tracking and detecting Moving cars](Videos/Tracking and detecting.avi) 
+![Tracking and detecting Moving cars](Videos/Tracking and detecting.avi) 
 
 ### Nearest-Neighbor Distance Estimation
 
@@ -170,7 +170,7 @@ The vision side of the project turns roadside video into the data the controller
 - The result is exported as a SUMO `.rou.xml` file using `<trip>` definitions, a conservatively filtered approximation of real traffic that keeps the digital twin realistic and stable.
 
 **Demand_Generation.mp4**
-    ![Automated Demand Generation](Videos/Demand Generator.mp4) 
+![Automated Demand Generation](Videos/Demand Generator.mp4) 
 
 ---
 
