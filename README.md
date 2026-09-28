@@ -100,6 +100,8 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
 - **RL_Control.mp4**
 
+
+
 ![DQN control for Delay reward on 25 January Corridor](Videos/DQN_control_for_Delay_reward.mp4)
 
 - **Baseline_fixed_time control.mp4**
@@ -148,7 +150,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **BEV.mp4**
 
-![BEV](Videos/BEV.mp4) 
+https://github.com/user-attachments/assets/cbfb419b-cb81-4ba6-9c0a-101717dea956
 
 ### Vehicle Detection and Tracking
 
@@ -172,7 +174,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **Distance.mp4**
 
-![Nearest Neighbor Distance Estimation](Videos/Nearest_Neighbor.mp4) 
+https://github.com/user-attachments/assets/a727446b-3859-4d0c-a567-57632302b43c
 
 ### Automated Demand Generation
 
@@ -183,7 +185,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **Demand_Generation.mp4**
 
-![Automated Demand Generation](Videos/Demand_Generator.mp4) 
+https://github.com/user-attachments/assets/5e18a244-c9a5-4d04-8f8f-f0608cce4ace
 
 ---
 
