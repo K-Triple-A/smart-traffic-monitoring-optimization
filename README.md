@@ -128,8 +128,8 @@ We implemented and compared three strategies, each in single-agent and multi-age
     The system was designed, implemented, trained, and evaluated using realistic traffic simulations to improve traffic efficiency under varying traffic conditions.
     
 - **Publication Banner:**
-- 
-![Publication Banner](images/publication_anner.png) 
+
+![Publication Banner](images/publication_panner.png) 
 
 - **Publication Certificate:**
   
