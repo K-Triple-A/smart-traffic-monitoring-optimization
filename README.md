@@ -8,7 +8,7 @@ Adaptive Traffic Signal Control Using Multi-Agent Reinforcement Learning. Develo
 
 #### architecture diagram 
 
-![Smart Traffic Architecture](images/project architecture.png)
+![Smart Traffic Architecture](images/project_architecture.png)
 
 **Smart Traffic: Monitoring and Optimizing Traffic Using Artificial Intelligence and Machine Learning**
 
@@ -68,24 +68,24 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
 - **Synthetic Two-Junction Corridor:** a symmetric two-intersection corridor built entirely in SUMO, used to observe multi-agent coordination without real-world irregularities.
 - 
-![Two-Junction corridor in sumo](images/Two-Junction Corridor sumo.png)
+![Two-Junction corridor in sumo](images/Two-Junction_Corridor_sumo.png)
 
 - **25 January Corridor (Assiut, Egypt):** a digital twin of a real arterial corridor with asymmetric geometry and realistic turning movements, used to test controller robustness.
 - 
-![25 January Corridor in (Assiut, Egypt) and sumo ](images/25 January Corridor.png)
+![25 January Corridor in (Assiut, Egypt) and sumo ](images/25_January_Corridor.png)
                 
 ### Demand Scenarios 
 - **Low Demand view:** 
 
-  ![Low Demand](images/Low Demand.png)
+  ![Low Demand](images/Low_Demand.png)
 
 - **Medium Demand view:**  
 
-  ![Medium Demand](images/Medium Demand.png)
+  ![Medium Demand](images/Medium_Demand.png)
 
 - **High Demand view:**  
 
-  ![High Demand](images/High Demand.png) 
+  ![High Demand](images/High_Demand.png) 
 
 
 | Level | Volume | Represents |
@@ -122,13 +122,18 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
     Our work addresses one of today's most important urban challenges: traffic congestion.
 
-    We proposed an intelligent traffic signal control framework based on Multi-Agent Deep Reinforcement Learning (MARL), enabling multiple intersections to cooperate and optimize traffic flow in real time rather than  operating independently.
-
+    We proposed an intelligent traffic signal control framework based on Multi-Agent Deep Reinforcement Learning (MARL), enabling multiple intersections to cooperate and optimize traffic flow in real time rather than   
+    operating independently.
+    
     The system was designed, implemented, trained, and evaluated using realistic traffic simulations to improve traffic efficiency under varying traffic conditions.
+    
+- **Publication Banner:**
+- 
+![Publication Banner](images/publication_anner.png) 
 
-![Publication Banner](images/publication panner.png) 
-
-![Publication Certificate](images/publication Certificate.png) 
+- **Publication Certificate:**
+  
+![Publication Certificate](images/publication_Certificate.png) 
 
 ### Computer Vision Pipeline
 
@@ -148,8 +153,10 @@ The vision side of the project turns roadside video into the data the controller
 ### Vehicle Detection and Tracking
 
 - Custom YOLO model trained on 260 annotated frames (single "vehicle" class, 70/20/10 train/validation/test split, augmentation to avoid overfitting), trained on Google Colab GPUs via Roboflow.
+  
+- **Annoted frame Example:**
 
-![Annoyated Frame Example](images/annotated Frame.png)
+![Annoyated Frame Example](images/annotated_Frame.png)
 
 - Works on low-resolution 480p footage, which supports deployment on standard CCTV cameras.
 - ByteTrack assigns persistent IDs across frames and handles occlusion in dense traffic, with a live HUD showing vehicle counts and elapsed time.
