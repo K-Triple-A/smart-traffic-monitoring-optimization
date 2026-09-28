@@ -100,13 +100,11 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
 - **RL_Control.mp4**
 
-
-
-![DQN control for Delay reward on 25 January Corridor](Videos/DQN_control_for_Delay_reward.mp4)
+https://github.com/user-attachments/assets/5e536227-b068-441d-9c8e-16673da535c0
 
 - **Baseline_fixed_time control.mp4**
 
-![Baseline_fixed_time control for Delay reward on 25 January Corridor](Videos/Baseline_fixed_time_control.mp4) 
+https://github.com/user-attachments/assets/7563473a-7d29-4475-bc20-da9703134d73
 
 ### Safety: Time-To-Collision (TTC)
 
@@ -165,7 +163,7 @@ https://github.com/user-attachments/assets/cbfb419b-cb81-4ba6-9c0a-101717dea956
 
 **Tracking.mp4**
 
-![Tracking and detecting Moving cars](Videos/Tracking_and_detecting.avi) 
+https://github.com/user-attachments/assets/43d53a10-c8a6-4649-befb-384f54e1da65
 
 ### Nearest-Neighbor Distance Estimation
 
