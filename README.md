@@ -7,6 +7,7 @@
 Adaptive Traffic Signal Control Using Multi-Agent Reinforcement Learning. Developed an intelligent traffic signal control system using Multi-Agent Reinforcement Learning (MARL) with Centralized Training and Decentralized Execution (CTDE). Designed and simulated urban traffic networks in SUMO to evaluate adaptive signal control under different traffic scenarios. Integrated a Computer Vision pipeline using YOLO for real-time vehicle detection and multi-object tracking, combined with Bird's-Eye View (BEV) transformation to estimate inter-vehicle distances. Compared multiple traffic control strategies using performance metrics including average waiting time, queue length, throughput, and travel time. Combined Reinforcement Learning and Computer Vision to improve traffic efficiency through perception-driven adaptive signal control.
 
 #### architecture diagram 
+
 ![Smart Traffic Architecture](images/project architecture.png)
 
 **Smart Traffic: Monitoring and Optimizing Traffic Using Artificial Intelligence and Machine Learning**
@@ -66,22 +67,25 @@ We implemented and compared three strategies, each in single-agent and multi-age
 ### Simulation Networks
 
 - **Synthetic Two-Junction Corridor:** a symmetric two-intersection corridor built entirely in SUMO, used to observe multi-agent coordination without real-world irregularities.
+- 
 ![Two-Junction corridor in sumo](images/Two-Junction Corridor sumo.png)
+
 - **25 January Corridor (Assiut, Egypt):** a digital twin of a real arterial corridor with asymmetric geometry and realistic turning movements, used to test controller robustness.
+- 
 ![25 January Corridor in (Assiut, Egypt) and sumo ](images/25 January Corridor.png)
                 
 ### Demand Scenarios 
 - **Low Demand view:** 
 
-        ![Low Demand](images/Low Demand.png)
+  ![Low Demand](images/Low Demand.png)
 
 - **Medium Demand view:**  
 
-        ![Medium Demand](images/Medium Demand.png)
+  ![Medium Demand](images/Medium Demand.png)
 
 - **High Demand view:**  
 
-        ![High Demand](images/High Demand.png) 
+  ![High Demand](images/High Demand.png) 
 
 
 | Level | Volume | Represents |
@@ -118,7 +122,7 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
     Our work addresses one of today's most important urban challenges: traffic congestion.
 
-    We proposed an intelligent traffic signal control framework based on Multi-Agent Deep Reinforcement Learning (MARL), enabling multiple intersections to cooperate and optimize traffic flow in real time rather than operating independently.
+    We proposed an intelligent traffic signal control framework based on Multi-Agent Deep Reinforcement Learning (MARL), enabling multiple intersections to cooperate and optimize traffic flow in real time rather than  operating independently.
 
     The system was designed, implemented, trained, and evaluated using realistic traffic simulations to improve traffic efficiency under varying traffic conditions.
 
@@ -139,7 +143,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **BEV.mp4**
 
-    ![BEV](Videos/BEV.mp4) 
+  ![BEV](Videos/BEV.mp4) 
 
 ### Vehicle Detection and Tracking
 
@@ -160,7 +164,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **Distance.mp4**
 
-    ![Nearest Neighbor Distance Estimation](Videos/Nearest Neighbor.mp4) 
+  ![Nearest Neighbor Distance Estimation](Videos/Nearest Neighbor.mp4) 
 
 ### Automated Demand Generation
 
