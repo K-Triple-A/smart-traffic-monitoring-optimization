@@ -226,7 +226,3 @@ https://github.com/user-attachments/assets/5e18a244-c9a5-4d04-8f8f-f0608cce4ace
 ### Tech Stack
 
 SUMO · Python · TraCI · TensorFlow/Keras · OpenCV · YOLO · ByteTrack · Roboflow · Google Colab · Git/GitHub · LaTeX
-
-### License
-
-Submitted under Creative Commons Attribution (CC BY 4.0).
