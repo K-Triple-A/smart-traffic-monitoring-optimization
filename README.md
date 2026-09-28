@@ -100,11 +100,11 @@ We implemented and compared three strategies, each in single-agent and multi-age
 
 - **RL_Control.mp4**
 
-![DQN control for Delay reward on 25 January Corridor](Videos/DQN control for Delay reward.mp4)
+![DQN control for Delay reward on 25 January Corridor](Videos/DQN_control_for_Delay_reward.mp4)
 
 - **Baseline_fixed_time control.mp4**
 
-![Baseline_fixed_time control for Delay reward on 25 January Corridor](Videos/Baseline_fixed_time control.mp4) 
+![Baseline_fixed_time control for Delay reward on 25 January Corridor](Videos/Baseline_fixed_time_control.mp4) 
 
 ### Safety: Time-To-Collision (TTC)
 
@@ -148,7 +148,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **BEV.mp4**
 
-  ![BEV](Videos/BEV.mp4) 
+![BEV](Videos/BEV.mp4) 
 
 ### Vehicle Detection and Tracking
 
@@ -162,7 +162,8 @@ The vision side of the project turns roadside video into the data the controller
 - ByteTrack assigns persistent IDs across frames and handles occlusion in dense traffic, with a live HUD showing vehicle counts and elapsed time.
 
 **Tracking.mp4**
-![Tracking and detecting Moving cars](Videos/Tracking and detecting.avi) 
+
+![Tracking and detecting Moving cars](Videos/Tracking_and_detecting.avi) 
 
 ### Nearest-Neighbor Distance Estimation
 
@@ -171,7 +172,7 @@ The vision side of the project turns roadside video into the data the controller
 
 **Distance.mp4**
 
-  ![Nearest Neighbor Distance Estimation](Videos/Nearest Neighbor.mp4) 
+![Nearest Neighbor Distance Estimation](Videos/Nearest_Neighbor.mp4) 
 
 ### Automated Demand Generation
 
@@ -181,7 +182,8 @@ The vision side of the project turns roadside video into the data the controller
 - The result is exported as a SUMO `.rou.xml` file using `<trip>` definitions, a conservatively filtered approximation of real traffic that keeps the digital twin realistic and stable.
 
 **Demand_Generation.mp4**
-![Automated Demand Generation](Videos/Demand Generator.mp4) 
+
+![Automated Demand Generation](Videos/Demand_Generator.mp4) 
 
 ---
 
